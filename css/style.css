@@ -1,0 +1,92 @@
+nav {
+  height:75px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.inner-nav > .line > a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+
+}
+.line {
+  height: 31px;
+  width: 116px;
+  border-right: 2px solid white;
+  padding-right: 17px;
+}
+.inner-nav {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-top {
+  height: 600px;
+  background-image: url(../img/hero1.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-circle > h1 {
+  font-family: Satisfy;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+.top-circle {
+  border: 11px solid black;
+  height: 300px;
+  width: 300px;
+  border-radius: 176px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mid-left {
+  float: left;
+  height: 400px;
+  width: 674px;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mid-right {
+  float: right;
+  height: 400px;
+  width: 673px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mid-right > h2 {
+  font-size: 57px;
+  font-family: 'Permanent Marker', cursive;
+}
+.mid-right > li > ul {
+  padding: 0 30px;
+  font-size: 33px;
+  line-height: 61px;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: lighter;
+}
+.mid-left > h2 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+.mid-left > p {
+  padding: 0 70px;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: lighter;
+}
