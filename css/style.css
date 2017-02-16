@@ -37,6 +37,7 @@ nav {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
+  animation-duration: 3s;
 }
 .top-circle {
   border: 11px solid black;
@@ -46,7 +47,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation-duration: 1s;
 }
+
 .mid-left {
   float: left;
   height: 400px;
@@ -89,4 +92,14 @@ nav {
   line-height: 40px;
   font-family: 'Permanent Marker', cursive;
   font-weight: lighter;
+}
+.imgline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+}
+.hoodie-img {
+  height: 400px;
 }
